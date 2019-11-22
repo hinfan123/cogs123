@@ -1,0 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    opacity: 1;
+    transition: 2s opacity;
+    font-family: 'Montserrat', sans-serif;
+}
+.jumbotron{
+  background-color: white;
+}
+img {
+  box-shadow: 5px 5px 5px grey;
+}

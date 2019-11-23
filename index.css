@@ -9,6 +9,21 @@ body {
 .jumbotron{
   background-color: white;
 }
-img {
+.container1 {
+  position: relative;
+}
+.map {
   box-shadow: 5px 5px 5px grey;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+  z-index: -1;
+}
+.chat {
+  position: absolute;
+  top: 400px;
+  left: 370px;
+}
+#chatrooms{
+  cursor: pointer;
 }

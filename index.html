@@ -22,27 +22,39 @@
   </head>
   <body>
 
-    <div class="jumbotron jumbotron-fluid text-center" id="title">
-      <h1>COGS 123: Friend Finding</h1>
+    <div class="jumbotron jumbotron-fluid text-center" id="instructions">
+      <h1>Instructions</h1>
+      <hr width=50%>
     </div>
 
-    <div class="container container-fluid text-center container1" id="div1">
-      <img class="map" src="pictures\map.jpg" alt="ucsd_map" width="1000" height="817" usemap="#schoolmap">
-      <img class="chat" src="pictures\chat.png" alt="circle" onclick="openNav()" id="chatrooms">
+    <div class="container container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <p>1. There should be a chat bubble on your current location (HSS). Click
+          on it and a list of users should pop up.</p>
+
+          <hr width=0>
+
+          <p>2. Choose any of the potential friends to wave hi to (percentages are
+          their compatibility with you).</p>
+
+          <hr width=0>
+
+          <p>3. Waving at the users will then redirect you to the corresponding discord
+          chat-room where you can talk to your new friend!</p>
+
+          <hr width=0>
+
+          <p class="text-center">When you are ready to continue, click on the button below to get
+          redirected to the prototype! </p>
+        </div>
+      </div>
     </div>
 
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="javascript:void(0)">Users Online: 24</a>
-      <hr>
-      <a href="#">Anon1594: <span class="green">97%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a>
-      <a href="#">Anon7373: <span class="orange">85%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon8578: <span class="orange">63%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon3657: <span class="red">54%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon9498: <span class="red">47%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon3254: <span class="red">45%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon0359: <span class="red">33%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
-      <a href="#">Anon2894: <span class="red">21%</span> &emsp; <img src="pictures\waving-hand.png" alt="wave"></a></a>
+    <hr width=0>
+
+    <div class="container container-fluid text-center">
+      <a class="btn btn-secondary" name="button" href="friendster.html">Prototype</a>
     </div>
 
   </body>

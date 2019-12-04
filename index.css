@@ -8,9 +8,9 @@ body {
 .jumbotron{
   background-color: white;
 }
-/* .container1 {
+.container1 {
   position: relative;
-} */
+}
 .map {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
@@ -22,18 +22,26 @@ body {
 }
 .chatA {
   position: absolute;
-  top: 550px;
-  left: 790px;
+  top: 340px;
+  left: 395px;
 }
 .chatB {
   position: absolute;
-  top: 600px;
-  left: 1000px;
+  top: 390px;
+  left: 600px;
+}
+.chatC {
+  position: absolute;
+  top: 485px;
+  left: 275px;
 }
 #chatroomA{
   cursor: pointer;
 }
 #chatroomB{
+  cursor: pointer;
+}
+#chatroomC{
   cursor: pointer;
 }
 

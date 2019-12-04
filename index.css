@@ -24,7 +24,10 @@ body {
   top: 400px;
   left: 370px;
 }
-#chatrooms{
+#chatroomA{
+  cursor: pointer;
+}
+#chatroomB{
   cursor: pointer;
 }
 .sidenav {

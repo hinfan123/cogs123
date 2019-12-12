@@ -1,123 +1,16 @@
-html{
-  scroll-behavior: smooth;
-}
 body {
     transition: background-color .5s;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Archivo', sans-serif;
 }
-.jumbotron{
-  background-color: white;
-}
-.container1 {
-  position: relative;
-}
-.map {
+.shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-.chatA {
-  position: absolute;
-  top: 340px;
-  left: 395px;
-}
-.chatB {
-  position: absolute;
-  top: 390px;
-  left: 600px;
-}
-.chatC {
-  position: absolute;
-  top: 485px;
-  left: 275px;
-}
-#chatroomA{
-  cursor: pointer;
-}
-#chatroomB{
-  cursor: pointer;
-}
-#chatroomC{
-  cursor: pointer;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
+h1 {
+  color: #FFA439;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.red { color: red; }
-.green { color: green; }
-.orange { color: orange; }
-
-.spot {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.svg-wrapper {
-  margin-top: 0;
-  position: relative;
-  width: 150px;
-  height: 40px;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background: #66b1f1;
-}
-
-#shape {
-  stroke-width: 6px;
-  fill: transparent;
-  stroke: #66b1f1;
-  stroke-dasharray: 85 400;
-  stroke-dashoffset: -220;
-  transition: 1s all ease;
-}
-
-#text {
-  margin-top: -35px;
-  text-align: center;
-}
-
-#text a {
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.1em;
-}
-
-.svg-wrapper:hover #shape {
-  stroke-dasharray: 50 0;
-  stroke-width: 3px;
-  stroke-dashoffset: 0;
-  stroke: black;
-}
-
-.svg-wrapper:hover {
-  background: white;
-  transition: 1s all ease;
-}
-
-#text a:hover{
-  color: black;
-  transition: 1s all ease;
-}
-
-.responsive {
-  max-width: 1000px;
-  max-height: 817px;
+.btn {
+  background-color: #FFA439;
+  border: none;
 }

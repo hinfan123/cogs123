@@ -13,7 +13,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
     <!--iconKit-->
     <script src="https://kit.fontawesome.com/fc0974e693.js"></script>
     <!--Link CSS and JS files-->
@@ -22,63 +22,470 @@
   </head>
   <body>
 
-    <div class="jumbotron jumbotron-fluid text-center" id="instructions">
-      <h1>Instructions</h1>
-      <hr width=50%>
+    <hr width=0>
+    <hr width=0>
+
+    <!--LOGO -->
+    <!--LOGO -->
+    <!--LOGO -->
+    <div class="container container-fluid" id="friendLogo">
+      <img src="pictures/afriend-logo.png" alt="logo" width="100%" height="100%">
     </div>
 
-    <div class="container container-fluid">
-      <div class="row justify-content-md-center">
-        <div class="col-md-10">
-          <p>1. There should be a chat bubble on your current location based on
-            the group that you were assigned.</p>
+    <div class="container container-fluid" id="friendLogo">
+      <img class="shadow" src="pictures/logo.png" alt="logo" width="100%" height="100%">
+      <hr width=0>
+    </div>
 
+    <hr width=0>
+
+    <!-- OVERVIEW -->
+    <!-- OVERVIEW -->
+    <!-- OVERVIEW -->
+    <div class="container container-fluid" id="overview">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Overview</b></h1>
+          <hr>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            It’s ironic how it’s more difficult to find friends in today’s day and
+            age when we are historically more connected then we have ever been.
+            AFriend was created as a social computing system to explore how might we
+            leverage geolocation and anonymity to create an opportunity for strangers
+            to become AFriend to each other.
+          </p>
           <hr width=0>
-
-          <p>2. Click on it and it should send you to the corresponding discord server. </p>
-
-          <hr width=0>
-
-          <p>3. Create an anonymous name to join the group chat</p>
-
-          <hr width=0>
-
-          <p class="text-center">When you are ready to continue, click on the group assigned to you below to get
-          redirected to the prototype! </p>
+          <p>
+            We primarily prototyped AFriend at UC San Diego leveraging our library
+            as a hotspot to have data-driven designs.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="pictures/geisel.png" alt="logo" width="100%" height="100%">
         </div>
       </div>
     </div>
 
     <hr width=0>
 
-    <div class="container">
+    <!-- PROBLEM SPACE -->
+    <!-- PROBLEM SPACE -->
+    <!-- PROBLEM SPACE -->
+    <div class="container container-fluid" id="overview">
       <div class="row">
-        <div class="col">
-          <div class="container container-fluid text-center">
-            <div class="svg-wrapper">
-              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                <rect id="shape" height="40" width="150" />
-                <div id="text">
-                  <a href="groupA.html"><span class="spot"></span>Group A</a>
-                </div>
-              </svg>
-            </div>
-          </div>
+        <div class="col-md-4">
+          <h1><b>Problem Space</b></h1>
+          <hr>
         </div>
-        <div class="col">
-          <div class="container container-fluid text-center">
-            <div class="svg-wrapper">
-              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                <rect id="shape" height="40" width="150" />
-                <div id="text">
-                  <a href="groupB.html"><span class="spot"></span>Group B</a>
-                </div>
-              </svg>
-            </div>
-          </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h4>
+            The major need we identified was the barrier of establishing genuine
+            connection and the fear of social repercussions associated with being
+            vulnerable.
+          </h4>
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row">
+        <div class="col-md-6">
+          <hr width=0>
+          <h4><b>Direct Observations</b></h4>
+          <p>
+            We spent 2 hrs+ into Geisel library to observe 300+ people,
+            approximately 15% to 25% of students there were on their phones were
+            counted as potential users.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <hr width=0>
+          <h4><b>Surveys</b></h4>
+          <p>
+            We discovered that 6/10 users do not take online interactions
+            seriously and that the anonymity aspect addresses the fear of social
+            reprecussions so people could unapologetically be themselves without
+            over commitment.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="shadow" src="pictures/observations.png" alt="observations" width="100%" height="100%">
+        </div>
+        <div class="col-md-6">
+          <img class="shadow" src="pictures/surveys.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row">
+        <div class="col-md-4">
+          <hr width=0>
+          <h4><b>Primary Interviews</b></h4>
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4">
+          <img src="pictures/user1.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/user2.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/user3.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+      <hr width=0>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4">
+          <p>We discovered that 6/10 users do not take online interactions
+            seriously and that the anonymity aspect addresses the fear of social
+            reprecussions so people could unapologetically be themselves without
+            over commitment.</p>
+        </div>
+        <div class="col-md-4">
+          <p>7/10 interviewees like the aspect of starting of anonymous and then
+            transistioning to revealing themselves if the conversations went well.</p>
+        </div>
+        <div class="col-md-4">
+          <p>One of our interviewees asked “How long would it take for people to
+            go the next step and introduce each other, and meeting the star person
+            and see who that actually goes.”
+          </p>
+          <p>
+            This ended up defining our the key painpoint we were addressing in why’s
+            difficult to make friends.
+          </p>
         </div>
       </div>
     </div>
 
+    <hr width=0>
+
+    <!-- IDEATION -->
+    <!-- IDEATION -->
+    <!-- IDEATION -->
+    <div class="container container-fluid" id="overview">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Ideation</b></h1>
+          <hr>
+        </div>
+      </div>
+
+      <hr width=0>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <p>
+            Used the concept of localized chat based on the geo-location
+            of the area. By keeping emphasis on the aspect of anonymity,
+            we wanted to match anonymous users based on their interest.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p>
+            Ideas from creating an algorithm that matches people based on common
+            interest to implementing the Big 5 personality traits.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <p>
+            In regards to private chats, developed “wave” feature to notify an
+            anonymous users to request a private chat, and “roll a dice” to be
+            matched with users based on the higher percentage rate based on interest.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/ideaux.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/sticknotes.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/final.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- PROTOTYPING -->
+    <!-- PROTOTYPING -->
+    <!-- PROTOTYPING -->
+    <div class="container container-fluid" id="friendLogo">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Prototyping</b></h1>
+          <hr>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-12 text-center">
+          <a href="prototype.html" class="btn btn-secondary" role="button">Prototype</a>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            We used discord to represent the online messaging features of our
+            prototype and we discovered that the features discord has would mesh
+            really well with what a final product of our application would be.
+          </p>
+          <p>
+            However, since we didn't moderate the chats carefully enough, content
+            that people could find offensive did slip into the conversations.
+          </p>
+          <p>
+            In addition to this, we noticed that the audience did not move around
+            to change rooms, so future iterations might include things that incentivize
+            moving from one location to another.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img class="shadow" src="pictures/discord1.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-6">
+          <img class="shadow" src="pictures/discord2.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+    <hr width=0>
+
+    <!-- EVALS -->
+    <!-- EVALS -->
+    <!-- EVALS -->
+    <div class="container container-fluid" id="friendLogo">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Evaluations</b></h1>
+          <hr>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-12 text-center">
+          <h4>
+            Would this be something you would check up on
+            if you were going about your day to day on campus?
+          </h4>
+        </div>
+      </div>
+
+      <hr width=0>
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/graph.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-8">
+          <hr width=0>
+          <hr width=0>
+          <hr width=0>
+          <p>“Its always good to not feel alone, and i think this could be especially helpful on a big campus like this where there are always people around”</p>
+          <p>“I have my own discord channels with people i already know, so i’d rather go on those channels”</p>
+          <p>“I think it was fun to see everyone interact and answer the questions because some of the responses were really funny”</p>
+        </div>
+      </div>
+      <hr width=0>
+    </div>
+
+    <hr width=0>
+
+    <!-- FINAL -->
+    <!-- FINAL -->
+    <!-- FINAL -->
+    <div class="container container-fluid" id="finalDesigns">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Final Designs</b></h1>
+          <hr>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/co-locate.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-8">
+          <hr width=0><hr width=0>
+          <hr width=0><hr width=0>
+          <hr width=0><hr width=0>
+          <hr width=0><hr width=0>
+          <hr width=0><hr width=0>
+          <h2 class="text-center">Co-located Space</h2>
+          <hr width=0>
+          <p>
+            Each chat room would be based on a physical location.
+            Users may only join nearby locations to encourage interaction online
+            and potentially offline. </p>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-11 text-center">
+          <h2>Range</h2>
+        </div>
+        <div class="col-md-11">
+          <p>
+            Users would able to see chatrooms and activity within a certain range,
+            but cannot participate until they are within a smaller range dependent
+            on the location. Incentivizes users to move to locations and be in the
+            same physical space as other users, and discourage randoms from “trolling”
+            or harassment.  </p>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/hss.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/muir.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/peterson.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+
+      <hr width=0><hr width=0>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-11 text-center">
+          <h2>Chatrooms</h2>
+        </div>
+        <div class="col-md-11">
+          <p>
+            Each chat room would be based on a physical location. Users may only
+            join nearby locations to encourage interaction online and potentially
+            create opportunities to meet offline.  </p>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/co-locate.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/hss.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/hss-chat.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+
+      <hr width=0><hr width=0>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-11 text-center">
+          <h2>Messaging</h2>
+        </div>
+        <div class="col-md-11">
+          <p>
+            Individual chats would only between 2 people and would allow for a
+            more intimate conversation. Users would indicate in their preferences
+            whether or not they would allow the system to automatically match them
+            users with similar interests. </p>
+        </div>
+      </div>
+
+      <hr width=0>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="pictures/hss-chat.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/hss-chat1.png" alt="surveys" width="100%" height="100%">
+        </div>
+        <div class="col-md-4">
+          <img src="pictures/hss-chat2.png" alt="surveys" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+    <hr width=0><hr width=0>
+
+    <!-- WHAT WE LEARNED -->
+    <!-- WHAT WE LEARNED -->
+    <!-- WHAT WE LEARNED -->
+    <div class="container container-fluid" id="reflection">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>What We Learned</b></h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Geolocation was a good stepping stone that allows users to interact
+            with people synchronously in a co-located space.<p>
+          <p>
+            Our messaging had difficulties as we found that it’s difficult to
+            moderate what goes on in the group chats and can turn away a lot of
+            potential users.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0><hr width=0>
+
+    <!-- TAKEAWAY -->
+    <!-- TAKEAWAY -->
+    <!-- TAKEAWAY -->
+    <div class="container container-fluid" id="reflection">
+      <div class="row">
+        <div class="col-md-4">
+          <h1><b>Takeaway</b></h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Our key takeaway with our live prototype that was tested on ~55
+            participants was: 60% of them were receptive to AFriend and to address
+            the potential edge cases<p>
+          <li>Feeling comfortable within an open chat forum.</li>
+          <li>Addressing potential toxicity that arises in similar products</li>
+        </div>
+      </div>
+    </div>
+
+    <hr width=0><hr width=0>
+    <hr width=0><hr width=0>
   </body>
 </html>
